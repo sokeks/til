@@ -99,7 +99,7 @@ while queue:
       queue.append(next_row, next_col)
 ```
 
-We are actually de-duplicating all the unnecessary work at the earliest possible state, keeping space and time complexity minimal and preventing TLE.
+We are actually de-duplicating all the unnecessary work at the earliest possible state, keeping space and time complexity minimal and preventing TLE. And this is our target structure!
 
 ## Notes
 
