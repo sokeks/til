@@ -12,11 +12,11 @@ while queue:
   for i in range(level_size):
     state = queue.popleft()
 
-    # Should I check BFS state validity here...?
+    # SHOULD I CHECK BFS STATE VALIDITY HERE...?
 
     for next_state in calculate_next(state):
 
-      # ... or maybe here?
+      # ... OR MAYBE HERE?
 
       queue.append(next_state)
 ```
