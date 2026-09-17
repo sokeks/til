@@ -47,11 +47,11 @@ The above question is not the only one; another good approach is:
 
 Breaking it apart:
 
-**Q1b:** How many numbers (from range [1, n]) have one comma?<br>
+**Q1b:** How many numbers (from range [1, n]) have exactly one comma?<br>
 **A1b:** All from 1,000 inclusive to 1,000,000 exclusive &rarr; in mathematical terms: $$\sum_{x=1,000}^{min(n, 1,000,000 - 1)} 1 = min(n, (1,000,000 - 1)) - 1,000 + 1 = 999,000$$
 <br><br>
-**Q2b:** How many numbers (from range [1, n]) have a million related comma (so the second comma)?<br>
-**A2b:** All from 1,000,000 inclusive upwards  &rarr; in mathematical terms: terms: $$\sum_{x=1,000,000}^{min(n, 1,000,000,000 - 1)} 1 = min(n, (1,000,000,000 - 1)) - 1,000,000 + 1 = 999,000$$
+**Q2b:** How many numbers (from range [1, n]) have exactly two commas?<br>
+**A2b:** All from 1,000,000 inclusive upwards  &rarr; in mathematical terms: terms: $$\sum_{x=1,000,000}^{min(n, 1,000,000,000 - 1)} 1 = min(n, (1,000,000,000 - 1)) - 1,000,000 + 1 = 999,000,000$$
 <br><br>
 
 And in code:
