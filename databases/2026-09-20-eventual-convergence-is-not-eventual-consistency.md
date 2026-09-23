@@ -27,7 +27,7 @@ So to be sure to get the **Strict Consistency**, we would need to have synchrono
 
 But what would happen if we move to leaderless system and allow replicas to consult the data with other instances in the system (basically how it's done in leaderless Cassandra or DynamoDB), and allow to verify the latest value? In that situation we get this:
 
-<img width="115" height="119" alt="image" src="https://github.com/user-attachments/assets/e0bdf4d1-ee73-4649-b946-42b8f232e414" />
+<img width="696" height="421" alt="image" src="https://github.com/user-attachments/assets/11b95373-f9d0-4add-b849-53e876ebe916" />
 
 Is that now a **Strict Consistency**?
 
